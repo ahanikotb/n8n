@@ -1,5 +1,5 @@
 #FROM n8nio/n8n
-FROM node:12.13.0-alpine
+FROM node:16.20.0-alpine
 
 ARG N8N_VERSION
 # RUN if [ -z "$N8N_VERSION" ] ; then echo "The N8N_VERSION argument is missing!" ; exit 1; fi
