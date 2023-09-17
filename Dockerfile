@@ -24,4 +24,4 @@ ENV WEBHOOK_URL=https://automate.xentora.com/
 ENV VUE_APP_URL_BASE_API=https://automate.xentora.com/
 
 # Start n8n
-CMD ["n8n"]
+CMD ["n8n","start"]
