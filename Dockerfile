@@ -1,6 +1,7 @@
 FROM n8nio/n8n
 
-#CMD ["n8n"]
+# Install n8n 1.6.1 globally using npx
+RUN npm update -g n8n@1.6.1
 
 ARG PGPASSWORD
 ARG PGHOST
